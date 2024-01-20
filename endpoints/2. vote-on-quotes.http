@@ -1,0 +1,53 @@
+### Vote on quote #1 voter 1
+POST http://localhost:8072/api/quotes/1/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 1 & upvote = true
+
+### Vote on quote #1 voter 2
+POST http://localhost:8072/api/quotes/1/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 2 & upvote = false
+
+### Vote on quote #1 voter 3
+POST http://localhost:8072/api/quotes/1/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 3 & upvote = true
+
+### Vote on quote #2 voter 1
+POST http://localhost:8072/api/quotes/2/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 1 & upvote = false
+
+### Vote on quote #2 voter 2
+POST http://localhost:8072/api/quotes/2/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 2 & upvote = true
+
+### Vote on quote #2 voter 3
+POST http://localhost:8072/api/quotes/2/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 3 & upvote = false
+
+### Vote on quote #3 voter 1
+POST http://localhost:8072/api/quotes/3/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 1 & upvote = true
+
+### Vote on quote #3 voter 2
+POST http://localhost:8072/api/quotes/3/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 2 & upvote = true
+
+### Vote on quote #3 voter 3
+POST http://localhost:8072/api/quotes/3/vote
+Content-Type: application/x-www-form-urlencoded
+
+voter = 3 & upvote = true

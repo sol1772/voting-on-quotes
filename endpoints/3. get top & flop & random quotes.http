@@ -1,0 +1,8 @@
+### Get top quotes
+GET http://localhost:8072/api/quotes/top
+
+### Get flop quotes
+GET http://localhost:8072/api/quotes/flop
+
+### Get a random quote
+GET http://localhost:8072/api/quotes/random

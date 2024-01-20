@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Jan 20 16:43:09 MSK 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-018d-271c-652f-0000029ee498 
+on database directory memory:W:\Java\dev\projects\test-projects\kameleoon-trial-task\db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55 
+Loaded from file:/C:/Users/Sol/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.9+11-LTS-201
+user.dir=W:\Java\dev\projects\test-projects\kameleoon-trial-task
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

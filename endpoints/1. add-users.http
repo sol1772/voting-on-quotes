@@ -1,0 +1,43 @@
+### Add users
+POST http://localhost:8072/api/users/add-all
+Content-Type: application/json
+
+[
+    {
+        "quotes": [
+            {
+                "id": 1,
+                "userId": 1,
+                "content": "Quote #1"
+            }
+        ],
+        "id": 1,
+        "username": "admin",
+        "email": "admin@mail.com",
+        "registeredAt": "2024-01-15T20:56:42.543"
+    },
+    {
+        "quotes": [
+            {
+                "id": 2,
+                "userId": 2,
+                "content": "Quote #2"
+            }
+        ],
+        "id": 2,
+        "username": "test user",
+        "email": "test1@mail.com"
+    },
+    {
+        "quotes": [
+            {
+                "id": 3,
+                "userId": 3,
+                "content": "Quote #3"
+            }
+        ],
+        "id": 3,
+        "username": "java developer",
+        "email": "java_dev@mail.com"
+    }
+]
